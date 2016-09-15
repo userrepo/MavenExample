@@ -256,6 +256,15 @@
             <artifactId>datatables-jsp</artifactId>
             <version>${dandelion.datatables.version}</version>
         </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
+<dependency>
+    <groupId>org.jacoco</groupId>
+    <artifactId>jacoco-maven-plugin</artifactId>
+    <version>0.7.5.201505241946</version>
+</dependency>
+
+        
         <dependency>
             <groupId>com.github.dandelion</groupId>
             <artifactId>datatables-export-itext</artifactId>
